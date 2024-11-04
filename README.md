@@ -8,7 +8,7 @@ In order to evaluate your LLM on the APR task you need to set up the RunBugRun E
 
 #### `rbugr`
 
-As of today, we only support Ubuntu 22.04. For other distributions, please open an issue.
+As of today, rbugr only supports Ubuntu 22.04.
 
 #### Prerequisities
 Use the following to install the compilers/interpreters needed to run submission programs:
@@ -29,18 +29,18 @@ The `rbugr` utility is written in Ruby.
 You'll need a recent version of Ruby (3.1) on your system (installed e.g. through [`rbenv`](https://github.com/rbenv/rbenv)).
 In addition to a Ruby to run the utility, you'll need a Ruby to run Ruby submission programs. Here version 3.0, the version packaged by Ubuntu, is sufficient.
 
-##### rbenv Installation
+#### rbenv Installation
 Step 1: Get rbenv
 
    1. Clone rbenv into `~/.rbenv`.
   
-    ```sh
-    git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-    ```
+       ```
+       git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+       ```
   
   2. Set up your shell to load rbenv.
   
-      ```sh
+      ```
       ~/.rbenv/bin/rbenv init
       ```
   
