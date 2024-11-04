@@ -50,27 +50,27 @@ Step 2: Install Ruby 3.1
 
   1. Install ruby-build to get rbenv install
      
-    ```
-    git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
-    ```
-    ```
-    git -C "$(rbenv root)"/plugins/ruby-build pull
-    ```
+       ```
+       git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+       ```
+       ```
+       git -C "$(rbenv root)"/plugins/ruby-build pull
+       ```
   
   2. Use rbenv install
      
-    ```
-    # install a Ruby version:
-    rbenv install 3.1.0
-    ```
+       ```
+       # install a Ruby version:
+       rbenv install 3.1.0
+       ```
   
   3. Set the run_bug_run folder to use Ruby 3.1
      
-    ```
-    cd run_bug_run
-    # choose Ruby version 3.1.0:
-    rbenv local 3.1.0
-    ```
+       ```
+       cd run_bug_run
+       # choose Ruby version 3.1.0:
+       rbenv local 3.1.0
+       ```
 
 ### RunBugRun Usage
 
