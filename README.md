@@ -1,8 +1,13 @@
 # LLM-Based-APR
 An attempt at Automated Program Repair using an LLM.
 
-## Prerequisite for LLM Model Evaluation
-In order to evaluate your LLM on the APR task you need to set up the RunBugRun Executable Dataset.
+## LLM Training
+Please use the finetuning.ipynb Python Notebook to perform model fine-tuning.
+
+## LLM Evaluation
+You may evaluate your trained LLM using the run.ipynb Python Notebook.
+
+However, in order to evaluate your LLM on the APR task you first need to set up the RunBugRun Executable Dataset.
 
 ### RunBugRun Installation
 
@@ -103,7 +108,7 @@ The 'output.jsonl' file must be in the following format:
 ...
 ```
 
-### Analysis of Evaluation
+#### Analysis of Evaluation
 
 Once evaluated you can use `rbugr analyze` to calculate various evaluation metrics.
 For instance:
